@@ -1,0 +1,31 @@
+{
+  "name": "winmess",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This library provides a request/response style API for the browsers `postMessage` `onmessage` functions.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [],
+  "author": "Mark Wylde <me@markwylde.com> (https://github.com/markwylde)",
+  "license": "MIT",
+  "devDependencies": {
+    "debounce": "^1.2.1",
+    "esbuild": "^0.15.12",
+    "just-tap": "^1.3.0",
+    "puppeteer": "^19.2.0",
+    "servatron": "^2.4.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markwylde/winmess.git"
+  },
+  "bugs": {
+    "url": "https://github.com/markwylde/winmess/issues"
+  },
+  "homepage": "https://github.com/markwylde/winmess#readme"
+}
