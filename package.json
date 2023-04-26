@@ -14,7 +14,6 @@
     "debounce": "^1.2.1",
     "esbuild": "^0.17.18",
     "just-tap": "^2.6.0",
-    "puppeteer": "^19.11.1",
     "servatron": "^2.4.3"
   },
   "directories": {
@@ -27,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/markwylde/winmess/issues"
   },
-  "homepage": "https://github.com/markwylde/winmess#readme"
+  "homepage": "https://github.com/markwylde/winmess#readme",
+  "dependencies": {
+    "puppeteer": "^19.11.1"
+  }
 }

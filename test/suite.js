@@ -1,7 +1,7 @@
 import createTestSuite from 'just-tap';
 import wrap from '../lib/index.js';
 
-const { test, run } = createTestSuite({ concurrency: 1 });
+const { test, run } = createTestSuite();
 
 const resetIframes = () => {
   document.body.innerHTML = `
@@ -115,6 +115,6 @@ test('first watcher returns null', async t => {
   t.equal(response, null);
 });
 
-run().then(stats => {
+run({ concurrency: 1 }).then(stats => {
   console.log('$$TEST_BROWSER_CLOSE$$:' + JSON.stringify(stats));
 });
